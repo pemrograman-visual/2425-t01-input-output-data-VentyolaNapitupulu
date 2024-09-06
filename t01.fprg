@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="t01"/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-06 01:54:19 PM"/>
+        <attribute name="created" value="QVNVUztMQVBUT1AtQ0I4SzRBVDk7MjAyNC0wOS0wNjsxMDo1NjoyOCBBTTsyNjIx"/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtQ0I4SzRBVDk7MjAyNC0wOS0wNjswMTo1NDoxOSBQTTsyOzI3NDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="kodeisbn" type="String" array="False" size=""/>
+            <input variable="kodeisbn"/>
+            <declare name="judul" type="String" array="False" size=""/>
+            <input variable="judul"/>
+            <declare name="penulis" type="String" array="False" size=""/>
+            <input variable="penulis"/>
+            <declare name="tahunterbit" type="Integer" array="False" size=""/>
+            <input variable="tahunterbit"/>
+            <declare name="penerbit" type="String" array="False" size=""/>
+            <input variable="penerbit"/>
+            <declare name="formatbuku" type="String" array="False" size=""/>
+            <input variable="formatbuku"/>
+            <declare name="hargapembelian" type="Real" array="False" size=""/>
+            <input variable="hargapembelian"/>
+            <declare name="minimummargin" type="Real" array="False" size=""/>
+            <input variable="minimummargin"/>
+            <declare name="stok" type="Integer" array="False" size=""/>
+            <input variable="stok"/>
+            <declare name="rating" type="Real" array="False" size=""/>
+            <input variable="rating"/>
+            <output expression="kodeisbn&amp; &quot;|&quot; &amp;judul&amp; &quot;|&quot; &amp;penulis&amp; &quot;|&quot; &amp;tahunterbit&amp; &quot;|&quot; &amp;penerbit&amp; &quot;|&quot; &amp;formatbuku&amp; &quot;|&quot; &amp;hargapembelian&amp; &quot;|&quot; &amp;minimummargin&amp; &quot;|&quot; &amp;stok&amp; &quot;|&quot; &amp;rating" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
